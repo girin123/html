@@ -1,0 +1,51 @@
+.parent{
+    height: 100%vh;
+    align-items: center;
+    justify-content: center;
+
+}
+.head{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+.main{
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    
+
+}
+.main div{
+   display: flexbox;
+    align-items: flex-start;
+    border: 1px solid gray;
+    background-color: gray;
+    color: white;
+    margin-left: 10px;
+}
+.main div1{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px ;
+    color: brown ;
+}
+
+.foot{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}

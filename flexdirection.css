@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+.parent{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.common{
+    width: 80px;
+    height: 30px;
+    border: 1px solid gray;
+    font-weight: bold;
+    color: white;
+
+
+}
+.one{
+    background-color: red;
+    order: 10;
+
+
+
+}
+.two{
+    background-color: green;
+
+}
+.three{
+    background-color: yellow;
+
+
+}
+.four{
+    background-color: brown;
+
+}
+.five{
+    background-color: blueviolet;
+
+}

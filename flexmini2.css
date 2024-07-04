@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header,main,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+header{
+    height: 10vh;
+    background-color:lightcoral;
+}
+main{
+    height: 80vh;
+    background-color: aliceblue;
+    flex-grow: 1;
+}
+footer{
+    height: 10vh;
+    background-color: pink;
+}
+.miniproject{
+    justify-content: space-between;
+}
+.miniproject h2{
+    margin-left: 10px;
+}
+.miniproject input[type="search"]{
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 0px,20px;
+    outline: none;
+    border-color: lightblue;
+
+
+}
+.miniproject input[type="search"]:focus{
+    border-color: cyan;
+
+}
+.mini{
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+    
+
+}
+.mini a{
+    color: inherit;
+    text-decoration: none;
+}
+.mini a i{
+    margin-right: 10px;
+
+}
+.mini a:hover{
+    color: brown;
+}
+.main{
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 20px;
+    
+   
+}
+.mini img{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    
+
+}
